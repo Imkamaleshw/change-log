@@ -1,0 +1,27 @@
+#log-container {
+  display: flex;
+  width: 80%;
+  margin-inline: auto;
+}
+.date-column {
+  width: 40%;
+  padding: 20px;
+  border-right: 2px solid black;
+  display: flex;
+  justify-content: end;
+  position: relative;
+}
+.commit-column {
+  width: 60%;
+  padding: 20px;
+}
+.black-dot {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 99%;
+}
